@@ -1,7 +1,10 @@
 import java.util.Scanner;
 import java.lang.String;
+
 public class StudentGradeCalculator{
+
 public static void main(String[] args){
+
 Scanner sc = new Scanner(System.in);
 System.out.print("Enter number of subject:");
 int numSub = sc.nextInt();
@@ -21,7 +24,9 @@ System.out.print("\nGrade obtained:"+ grade);
 sc.close();
 }
 public static String calculateGrade(double marks){
+
  if(marks>=95){
+
 return "A";
 }else if(marks>=85){
 return "A+";
